@@ -1,3 +1,4 @@
-export interface Category {
+export interface Category<T> {
+    id?: T
     name: string
 }
